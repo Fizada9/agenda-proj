@@ -1,0 +1,23 @@
+
+CREATE DATABASE escola;
+
+USE escola;
+
+
+CREATE TABLE professores (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL
+);
+
+
+CREATE TABLE disciplinas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL
+);
+
+
+CREATE TABLE turmas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL
+);
+

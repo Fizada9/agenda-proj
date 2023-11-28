@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #333;
+}
+
+input[type="text"],
+select,
+input[type="number"],
+button {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+select {
+  appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select option {
+  padding: 8px;
+}
+
+.calendar-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.react-calendar {
+  max-width: 400px; /* Ajuste o tamanho máximo conforme necessário */
+  width: 100%;
+}
+.custom-calendar {
+  background-color: #ffffff; /* Altere a cor de fundo conforme necessário */
+  color: #333333; /* Altere a cor do texto conforme necessário */
+  border: 1px solid #cccccc; /* Altere o estilo da borda conforme necessário */
+  /* Adicione outros estilos conforme desejado */
+}
+
+.react-calendar__month-view__days__day--neighboringMonth,
+.react-calendar__month-view__days__day--neighboringMonth abbr,
+.react-calendar__tile abbr {
+  color: black; /* Altere a cor para preto */
+}
+
+.react-calendar__navigation__label,
+.react-calendar__navigation__arrow {
+  color: rgb(231, 104, 81); /* Altere a cor para azul */
+}
